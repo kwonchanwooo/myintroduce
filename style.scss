@@ -18,33 +18,42 @@ body {
 	background: #eae4e4;
 	overflow: hidden;
 	.wrap {
-		// display: flex;
-
+		width: 1180px;
+		margin: 0 auto;
+		height: 100%;
+		.header {
+			height: 10%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			> h1 {
+				font-size: 60px;
+			}
+		}
 		.inner {
 			display: flex;
 			width: 100%;
-
+			height: 100%;
 			.left {
-				height: 98vh;
+				height: 85%;
 				width: 30%;
 				display: flex;
 				flex-direction: column;
 				border: 1px solid brown;
 				border-radius: 10px;
-				margin: 1vh;
+				margin-right: 20px;
 				.photo {
-					width: 90%;
+					width: 80%;
 					display: flex;
 					margin: 0 auto;
 					justify-content: center;
 					align-items: center;
-					height: 60vh;
+					height: 60%;
 
-					margin-bottom: 2vh;
 					flex-direction: column;
 					.pics {
 						width: 100%;
-						margin-top: 5vh;
+						margin-top: 40px;
 						height: 65%;
 						background: #fff;
 						display: flex;
@@ -76,7 +85,7 @@ body {
 					}
 				}
 				.info {
-					width: 90%;
+					width: 80%;
 					display: flex;
 					border-radius: 10px;
 					margin: 0 auto;
@@ -86,18 +95,52 @@ body {
 					// border: 1px solid red;
 					background: #e2b7b7;
 					margin-bottom: 5vh;
+					display: flex;
+					flex-direction: column;
+
+					.text {
+						width: 100%;
+						height: 70%;
+						border-radius: 10px;
+						border: 1px solid black;
+					}
+					.jss {
+						width: 100%;
+						height: 30%;
+
+						border-radius: 10px;
+						.box {
+							display: flex;
+							justify-content: center;
+							align-items: center;
+							height: 100%;
+							a {
+								width: 95%;
+								height: 30px;
+								border: 1px solid black;
+								display: flex;
+								justify-content: center;
+								align-items: center;
+								border-radius: 10px;
+								&:hover {
+									background: red;
+								}
+							}
+						}
+					}
 				}
 			}
 			.right {
-				margin: 1vh;
+				height: 85%;
 
 				width: 70%;
 				display: flex;
-				display: flex;
+				margin-right: 20px;
+
 				.up {
 					width: 49%;
-					height: 98vh;
-					margin-bottom: 2vh;
+					height: 100%;
+
 					display: flex;
 					flex-direction: column;
 					margin-right: 2%;
@@ -107,21 +150,23 @@ body {
 							text-align: center;
 							padding-top: 2vh;
 							width: 100%;
+							margin-bottom: 10px;
 						}
 						border: 1px solid black;
 						height: 30vh;
 						border-radius: 10px;
 						display: flex;
-						flex-direction: row;
+						flex-direction: column;
 						flex-wrap: wrap;
 						width: 100%;
-						margin-bottom: calc(5vh / 2);
+						margin-bottom: 15px;
 						a {
-							width: calc(100% / 3.5);
+							width: 80%;
 							border: 1px solid black;
 							margin: 0 auto;
 							border-radius: 10px;
-							height: 20vh;
+							height: calc(100% / 5);
+							margin-bottom: 10px;
 							display: flex;
 							align-items: center;
 							justify-content: center;
@@ -137,6 +182,7 @@ body {
 							text-align: center;
 							padding-top: 2vh;
 							width: 100%;
+							margin-bottom: 30px;
 						}
 						height: 35vh;
 						width: 100%;
@@ -144,15 +190,16 @@ body {
 						border: 1px solid black;
 						border-radius: 10px;
 						display: flex;
-						flex-direction: row;
+						flex-direction: column;
 						flex-wrap: wrap;
 						a {
-							width: calc(100% / 3.5);
+							width: 80%;
 							border: 1px solid black;
 							margin: 0 auto;
 							border-radius: 10px;
-							height: 20vh;
+							height: calc(100% / 5);
 							display: flex;
+							margin-bottom: 10px;
 							align-items: center;
 							justify-content: center;
 							&:hover {
@@ -175,8 +222,8 @@ body {
 				}
 				.down {
 					width: 49%;
-					height: 98vh;
-					margin-bottom: 2vh;
+					height: 100%;
+
 					display: flex;
 					flex-direction: column;
 					.four {
@@ -187,12 +234,14 @@ body {
 							text-align: center;
 						}
 						a {
-							width: calc(100% / 3.5);
+							padding: 20px;
+							width: 80%;
 							border: 1px solid black;
 							margin: 0 auto;
 							border-radius: 10px;
-							height: 20vh;
+							height: 50px;
 							display: flex;
+							flex-direction: column;
 							align-items: center;
 							justify-content: center;
 							&:hover {
@@ -202,7 +251,7 @@ body {
 							}
 						}
 						border: 1px solid black;
-						height: 35vh;
+						height: 40%;
 						border-radius: 10px;
 						display: flex;
 						flex-direction: row;
@@ -217,7 +266,7 @@ body {
 							padding-top: 2vh;
 						}
 						border: 1px solid black;
-						height: 35vh;
+						height: 35%;
 						border-radius: 10px;
 						display: flex;
 						flex-direction: row;
@@ -226,11 +275,11 @@ body {
 						margin-bottom: calc(5vh / 2);
 
 						a {
-							width: calc(100% / 3.5);
+							width: 90%;
 							border: 1px solid black;
 							margin: 0 auto;
 							border-radius: 10px;
-							height: 20vh;
+							height: 90px;
 							display: flex;
 							align-items: center;
 							justify-content: center;
@@ -249,17 +298,18 @@ body {
 							width: 100%;
 						}
 						border: 1px solid black;
-						height: 25vh;
+						height: 30%;
 						border-radius: 10px;
 						display: flex;
-						flex-direction: row;
+						flex-direction: column;
 						flex-wrap: wrap;
+						justify-content: space-evenly;
 						a {
-							width: calc(100% / 3.5);
+							width: 80%;
 							border: 1px solid black;
 							margin: 0 auto;
 							border-radius: 10px;
-							height: 16vh;
+							height: 80px;
 							display: flex;
 							align-items: center;
 							justify-content: center;
