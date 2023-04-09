@@ -87,15 +87,17 @@ body .wrap .inner .left .photo .txt h1 {
   font: bold 45px/1 "IBM Plex Sans KR";
   text-align: center;
   margin-bottom: 2vh;
+  margin-top: 30px;
 }
 body .wrap .inner .left .photo .txt h2 {
-  font-size: 18px;
+  font-size: 20px;
   color: red;
   font-weight: normal;
-  margin-bottom: 2vh;
+  margin-bottom: 4vh;
 }
-body .wrap .inner .left .photo .txt p {
-  font: normal 15px/1;
+body .wrap .inner .left .photo .txt > p {
+  font-size: 15px;
+  font-weight: bold;
 }
 body .wrap .inner .left .info {
   width: 80%;
@@ -461,6 +463,7 @@ body .wrap .inner .right .down .six a:hover {
   letter-spacing: 0;
   font-variant: initial;
   line-height: 1;
+  opacity: 0.8;
   color: white;
 }
 

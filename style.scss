@@ -84,15 +84,17 @@ body {
 							font: bold 45px/1 'IBM Plex Sans KR';
 							text-align: center;
 							margin-bottom: 2vh;
+							margin-top: 30px;
 						}
 						h2 {
-							font-size: 18px;
+							font-size: 20px;
 							color: red;
 							font-weight: normal;
-							margin-bottom: 2vh;
+							margin-bottom: 4vh;
 						}
-						p {
-							font: normal 15px/1;
+						> p {
+							font-size: 15px;
+							font-weight: bold;
 						}
 					}
 				}
@@ -492,6 +494,6 @@ body {
 	letter-spacing: 0;
 	font-variant: initial;
 	line-height: 1;
-
+	opacity: 0.8;
 	color: white;
 }
