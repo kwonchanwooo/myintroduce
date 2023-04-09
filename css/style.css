@@ -467,4 +467,16 @@ body .wrap .inner .right .down .six a:hover {
   color: white;
 }
 
+.swibox {
+  margin-top: 40px;
+  width: 180px;
+  height: 200px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+}
+.swibox img {
+  margin-bottom: 10px;
+}
+
 /*# sourceMappingURL=style.css.map */

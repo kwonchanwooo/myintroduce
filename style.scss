@@ -497,3 +497,15 @@ body {
 	opacity: 0.8;
 	color: white;
 }
+
+.swibox {
+	margin-top: 40px;
+	width: 180px;
+	height: 200px;
+	margin: 0 auto;
+	background: rgba(255, 255, 255, 0.4);
+	border-radius: 10px;
+	img {
+		margin-bottom: 10px;
+	}
+}
