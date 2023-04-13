@@ -91,12 +91,13 @@ body .wrap .inner .left .photo .txt h1 {
 }
 body .wrap .inner .left .photo .txt h2 {
   font-size: 20px;
+  font-weight: bold;
   color: red;
   font-weight: normal;
   margin-bottom: 4vh;
 }
 body .wrap .inner .left .photo .txt > p {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: bold;
 }
 body .wrap .inner .left .info {
@@ -124,7 +125,7 @@ body .wrap .inner .left .info .text p {
   font-weight: bold;
   display: inline-block;
   width: 80%;
-  opacity: 0.7;
+  opacity: 0.9;
 }
 body .wrap .inner .left .info .jss {
   width: 100%;
@@ -179,15 +180,17 @@ body .wrap .inner .right .up .one {
 }
 body .wrap .inner .right .up .one > h1 {
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
   padding-top: 2vh;
   width: 100%;
   margin-bottom: 10px;
+  font-weight: bold;
 }
 body .wrap .inner .right .up .one > p {
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: bold;
   width: 80%;
-  opacity: 0.7;
+  opacity: 1;
   margin: 0 auto;
   text-align: center;
   margin-bottom: 20px;
@@ -223,13 +226,15 @@ body .wrap .inner .right .up .two > h1 {
   text-align: center;
   padding-top: 2vh;
   width: 100%;
-  font-size: 25px;
+  font-size: 30px;
+  font-weight: bold;
   margin-bottom: 10px;
 }
 body .wrap .inner .right .up .two > p {
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: bold;
   width: 80%;
-  opacity: 0.7;
+  opacity: 1;
   margin: 0 auto;
   text-align: center;
   margin-bottom: 20px;
@@ -261,13 +266,15 @@ body .wrap .inner .right .up .three {
 body .wrap .inner .right .up .three > h1 {
   text-align: center;
   padding-top: 2vh;
-  font-size: 25px;
+  font-size: 30px;
+  font-weight: bold;
   margin-bottom: 10px;
 }
 body .wrap .inner .right .up .three > p {
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: bold;
   width: 80%;
-  opacity: 0.7;
+  opacity: 1;
   margin: 0 auto;
   text-align: center;
   margin-bottom: 20px;
@@ -292,15 +299,17 @@ body .wrap .inner .right .down .four {
 body .wrap .inner .right .down .four > h1 {
   padding-top: 4vh;
   width: 100%;
-  font-size: 25px;
+  font-size: 30px;
+  font-weight: bold;
   height: 40px;
   text-align: center;
   margin-bottom: 10px;
 }
 body .wrap .inner .right .down .four > p {
-  font-size: 14px;
+  font-weight: bold;
+  font-size: 16px;
   width: 80%;
-  opacity: 0.7;
+  opacity: 1;
   margin: 0 auto;
   text-align: center;
   margin-bottom: 20px;
@@ -340,15 +349,17 @@ body .wrap .inner .right .down .five {
 body .wrap .inner .right .down .five > h1 {
   text-align: center;
   width: 100%;
-  padding-top: 4vh;
+  padding-top: 3vh;
   height: 30px;
-  font-size: 25px;
-  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 body .wrap .inner .right .down .five > p {
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: bold;
   width: 80%;
-  opacity: 0.7;
+  opacity: 1;
   margin: 0 auto;
   text-align: center;
   margin-bottom: 20px;
@@ -386,14 +397,16 @@ body .wrap .inner .right .down .six {
 body .wrap .inner .right .down .six > h1 {
   text-align: center;
   padding-top: 2vh;
-  font-size: 25px;
+  font-size: 35px;
   height: 70px;
+  font-weight: bold;
   width: 100%;
 }
 body .wrap .inner .right .down .six > p {
-  font-size: 14px;
+  font-size: 16px;
   width: 80%;
-  opacity: 0.7;
+  font-weight: bold;
+  opacity: 1;
   margin: 0 auto;
   text-align: center;
   margin-bottom: 20px;
@@ -477,6 +490,10 @@ body .wrap .inner .right .down .six a:hover {
 }
 .swibox img {
   margin-bottom: 10px;
+}
+.swibox p {
+  font-size: 20;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
